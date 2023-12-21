@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccc04359-542e-437c-8999-ae651aee2e2a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/annotataion/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/config/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/config/CircuitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/config/processor/DataSourceProcessor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/AlarmStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/ClueType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/EsField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/EsIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/JudgeOperationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/JudgeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/JudgeStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/JudgeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/JudgeUtilToolBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/MessageConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/MigrateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/ProducerTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/RuleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/ScoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/constant/Severity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/entity/AlarmEventEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/entity/AlarmIndexEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/entity/JudgeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/entity/custom/deserializer/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/entity/custom/serializer/LocalDateTimeSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/EDateInsisePatternType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/EDateInsisePatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/EESDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/EFieldDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/ETimeFieldType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/RelativeTimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/enums/RelativeTimeUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/ArgsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/JudgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/RemoteCalledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/handler/ExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/model/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/exception/model/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/pojo/vo/GuideVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/pojo/vo/JudgeToolBoxVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/pojo/vo/SearchVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/DigestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/EncryptUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/EsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/RedisKeyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/ReturnValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/SSLUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/utils/UserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/controller/ConfidenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/controller/DeprecateController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/controller/HistoryController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/controller/ResourcesController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/controller/mapper/HistoryAdaptorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AggsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AlarmEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AlarmEventReasonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AlarmIndexDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AlarmListCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/AlarmPushDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/ChartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/EvidenceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/judge/AlarmMergeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/judge/JudgeCompleteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/DtoFieldInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/ESSearchBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/ESearchMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/ESearchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/FieldGroupInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/FieldInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/FieldMapsInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/IndexTimeFieldVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/IndexTypeInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/IndexTypeMapsInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/QueryStorageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/QuickSearchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/ReponseHitBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/constant/ConfigConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/constant/FieldSortConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/constant/MagiceyeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/magiceye/constant/SampleQueryDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/tib/TibRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/dto/title/ToolBoxStatistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/AlarmDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/AlarmEventTable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/AlarmListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/ConfidenceDeviceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/ConfidenceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/DistinctEventVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/EvidenceVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/JudgeWhiteVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/ListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/ScoreVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/SourceEventVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/pojo/vo/history/JudgeHistoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/AlarmEventService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/AlarmManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/CoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/HistoryCollectService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/ResourceService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/AlarmSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/AlarmSelectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/AlarmSelectType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/BaseESSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/impl/AutoAlarmSelectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/impl/BaseESSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/impl/DefaultAlarmSelectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/impl/ManualAlarmSelectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/generic/alarm/model/QueryCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/impl/AlarmEventServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/impl/CoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/impl/HistoryCollectServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/impl/ResourceServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/base/src/main/java/org/example/service/impl/callback/HistoryCallbackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/aware/HistoryCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/constant/EvidenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/constant/HistoryRecordMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/constant/HistoryWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/constant/RecordType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/context/HistoryClue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/context/HistoryContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/exception/ValueObjectCreatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/MarkEvidenceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/RelationalEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/dto/DeletedHistory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/dto/HistoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/mapper/RequestTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/request/HistoryQueryCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/vo/BaseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/vo/ClueVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/vo/RecordVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/model/vo/ToolBoxStatisticVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/po/HistoryRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/repository/HistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/repository/HistoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/repository/converter/HistoryTransferMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/repository/persistence/HistoryRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/service/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/service/impl/HistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/history/src/main/java/org/example/service/mapper/HistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2Zqz0vmN9lGKRQAggR41fSFsztK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.demo-compiler [clean,package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "temurin-1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/violet/idea-projects/demo-compiler/service/base/src/main/java/org/example/service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\violet\idea-projects\demo-compiler\service\base\src\main\java\org\example\service" />
+      <recent name="C:\Users\violet\idea-projects\demo-compiler\service\history\src\main\java\org\example" />
+      <recent name="C:\Users\violet\idea-projects\demo-compiler\service\base\src\main\java" />
+      <recent name="C:\Users\violet\idea-projects\demo-compiler\common\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.service.impl" />
+      <recent name="org.example.annotataion" />
+      <recent name="org.example.pojo.dto" />
+      <recent name="org.example.service" />
+      <recent name="org.example.controller.mapper" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ccc04359-542e-437c-8999-ae651aee2e2a" name="更改" comment="" />
+      <created>1703164178727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703164178727</updated>
+      <workItem from="1703164179776" duration="4517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
