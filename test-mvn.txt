@@ -1,0 +1,170 @@
+[root@localhost test]# mvn clean package -DskipTests
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] demo-compiler                                                      [pom]
+[INFO] common                                                             [jar]
+[INFO] service                                                            [pom]
+[INFO] history                                                            [jar]
+[INFO] base                                                               [jar]
+[INFO]
+[INFO] ---------------------< org.gamelike:demo-compiler >---------------------
+[INFO] Building demo-compiler 1.0-SNAPSHOT                                [1/5]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ demo-compiler ---
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:compile (compile) @ demo-compiler ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-compile) @ demo-compiler ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:test-compile (test-compile) @ demo-compiler ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (java-test-compile) @ demo-compiler ---
+[INFO] No sources to compile
+[INFO]
+[INFO] ------------------------< org.gamelike:common >-------------------------
+[INFO] Building common 1.0-SNAPSHOT                                       [2/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ common ---
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/codePcakage/test/common/src/main/resources
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:compile (compile) @ common ---
+[WARNING] Source root doesn't exist: /opt/codePcakage/test/common/src/main/kotlin
+[INFO] Applied plugin: 'lombok'
+[WARNING] Lombok Kotlin compiler plugin is an experimental feature. See: https://kotlinlang.org/docs/components-stability.html.
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-compile) @ common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 52 source files to /opt/codePcakage/test/common/target/classes
+[INFO] /opt/codePcakage/test/common/src/main/java/org/example/utils/ReturnValueUtil.java: 某些输入文件使用了未经检查或不安全的操作。
+[INFO] /opt/codePcakage/test/common/src/main/java/org/example/utils/ReturnValueUtil.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/codePcakage/test/common/src/test/resources
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:test-compile (test-compile) @ common ---
+[WARNING] Source root doesn't exist: /opt/codePcakage/test/common/src/main/kotlin
+[INFO] Applied plugin: 'lombok'
+[WARNING] Lombok Kotlin compiler plugin is an experimental feature. See: https://kotlinlang.org/docs/components-stability.html.
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (java-test-compile) @ common ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ common ---
+[INFO] Tests are skipped.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ common ---
+[INFO] Building jar: /opt/codePcakage/test/common/target/common-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] ------------------------< org.gamelike:service >------------------------
+[INFO] Building service 1.0-SNAPSHOT                                      [3/5]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ service ---
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:compile (compile) @ service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-compile) @ service ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:test-compile (test-compile) @ service ---
+[WARNING] No sources found skipping Kotlin compile
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (java-test-compile) @ service ---
+[INFO] No sources to compile
+[INFO]
+[INFO] ------------------------< org.gamelike:history >------------------------
+[INFO] Building history 1.0-SNAPSHOT                                      [4/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ history ---
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ history ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/codePcakage/test/service/history/src/main/resources
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:compile (compile) @ history ---
+[WARNING] Source root doesn't exist: /opt/codePcakage/test/service/history/src/main/kotlin
+[INFO] Applied plugin: 'lombok'
+[WARNING] Lombok Kotlin compiler plugin is an experimental feature. See: https://kotlinlang.org/docs/components-stability.html.
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-compile) @ history ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /opt/codePcakage/test/service/history/target/classes
+[INFO] /opt/codePcakage/test/service/history/src/main/java/org/example/repository/persistence/HistoryRecordRepository.java: /opt/codePcakage/test/service/history/src/main/java/org/example/repository/persistence/HistoryRecordRepository.java使用或覆盖了已过时的 API。
+[INFO] /opt/codePcakage/test/service/history/src/main/java/org/example/repository/persistence/HistoryRecordRepository.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ history ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/codePcakage/test/service/history/src/test/resources
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:test-compile (test-compile) @ history ---
+[WARNING] Source root doesn't exist: /opt/codePcakage/test/service/history/src/main/kotlin
+[INFO] Applied plugin: 'lombok'
+[WARNING] Lombok Kotlin compiler plugin is an experimental feature. See: https://kotlinlang.org/docs/components-stability.html.
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (java-test-compile) @ history ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ history ---
+[INFO] Tests are skipped.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ history ---
+[INFO] Building jar: /opt/codePcakage/test/service/history/target/history-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] -------------------------< org.gamelike:base >--------------------------
+[INFO] Building base 1.0-SNAPSHOT                                         [5/5]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ base ---
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ base ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /opt/codePcakage/test/service/base/src/main/resources
+[INFO]
+[INFO] --- kotlin-maven-plugin:1.8.21:compile (compile) @ base ---
+[WARNING] Source root doesn't exist: /opt/codePcakage/test/service/base/src/main/kotlin
+[INFO] Applied plugin: 'lombok'
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000ffff67776080, pid=68912, tid=0x0000ffff66eef1e0
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_221-b11) (build 1.8.0_221-b11)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.221-b11 mixed mode linux-aarch64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0x7b6080]  SharedRuntime::resolve_sub_helper(JavaThread*, bool, bool, Thread*)+0x3a8
+#
+# Core dump written. Default location: /opt/codePcakage/test/core or core.68912
+#
+# An error report file with more information is saved as:
+# /opt/codePcakage/test/hs_err_pid68912.log
+Compiled method (c2)   67611 3945             java.lang.invoke.LambdaForm$BMH/828831332::reinvoke (36 bytes)
+ total in heap  [0x0000ffff5d3d6790,0x0000ffff5d3d69e8] = 600
+ relocation     [0x0000ffff5d3d68b0,0x0000ffff5d3d68c8] = 24
+ main code      [0x0000ffff5d3d68d0,0x0000ffff5d3d6920] = 80
+ stub code      [0x0000ffff5d3d6920,0x0000ffff5d3d6948] = 40
+ oops           [0x0000ffff5d3d6948,0x0000ffff5d3d6960] = 24
+ metadata       [0x0000ffff5d3d6960,0x0000ffff5d3d6970] = 16
+ scopes data    [0x0000ffff5d3d6970,0x0000ffff5d3d6998] = 40
+ scopes pcs     [0x0000ffff5d3d6998,0x0000ffff5d3d69c8] = 48
+ dependencies   [0x0000ffff5d3d69c8,0x0000ffff5d3d69d0] = 8
+ handler table  [0x0000ffff5d3d69d0,0x0000ffff5d3d69e8] = 24
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+已放弃 (核心已转储)
+
